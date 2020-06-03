@@ -17,6 +17,8 @@
 			* 排查问题
 				* [OOM问题]()
 				* [CPU问题]()   
+		* [guava]()
+		* [reactor模式](java_reactor.md)
 	* [python]()
 	* [scala]()
 	* [php]() 
@@ -38,6 +40,8 @@
 	* [zookeeper](zookeeper.md)
 	* [springcloud]()
 	* [nacos](nacos.md)
+	* [skywalking](skywalking.md)
+	* [gateway](gateway.md)
 * [算法]()
 	* [红黑树]() 
 * [OS]()
