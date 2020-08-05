@@ -19,3 +19,15 @@ players.forEach(System.out::println)
 ## ArrayList 扩容
 1. ArrayList初始化默认容量为10
 2. 当容量不够时，按照当前容量的1.5倍扩容
+
+## 时间戳与string转换 (jdk8)
+```
+DateTimeFormatter formatter=DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+//转string
+LocalDateTime parse = LocalDateTime.parse(str, formatter);
+LocalDateTime.from(parse).atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();
+
+//转long
+formatter.format(LocalDateTime.ofInstant(Instant.ofEpochMilli(timestamp),ZoneId.systemDefault()))
+
+```
