@@ -1,0 +1,9 @@
+压测接口
+
+
+1. avatar/data/course?
+- get请求 参数 email
+2. avatar/data/item
+- post 参数 {"email":""}
+
+ 
